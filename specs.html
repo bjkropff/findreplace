@@ -2,48 +2,45 @@ Find and Replace
 
 Test1
 
-input1: i
-input2: a
-output1: i
-output1: a
+string: i
+find: i
+replace: s
+output: s
 
-This test will take two inputs and print them to the user
+This test will take in three inputs, find (i) and replace string with replace. Return input to user.
 
 Test2
 
-input1: i
-input2: s
-output: s
+string: is
+find: is
+replace: to
+output: to
 
-This test will take in two inputs, and replace input1 with input2. Return input to user.
+This test will take in two word inputs, and replace find with replace. Return to user.
 
 Test3
 
-input: is
-input: to
-output: to
+string: hello world
+find: hello
+replace: hail
+output: hail world
 
-This test will take in two word inputs, and replace input1 with input2. Return to user.
+This test will take the two inputs, replace part of find with all of replace, and return it to the user.
 
 Test4
 
-input1: hello world
-input2: hail
-output: hail world
+string: hello, hailo world!
+find: hailo
+replace: hail
+output: hello, hail world!
 
-This test will take the two inputs, replace part of input1 with all of input2, and return it to the user.
+This test will take two inputs and replace part of find (hailo) with replace (hail) then return to user. Partial word replacement
 
 Test5
 
-input1: hello, hailo world!
-input2: hail
-output: hello, hail world!
-
-This test will take two inputs and replace part of input1 (hailo) with input2 (hail) then return to user. Partial word replacement
-
-Test6
-input1: HELLO, HELLO world!
-input2: hail
-output: hail, hail world
+string: HELLO HELLO world!
+find: HELLO
+replace: hail
+output: hail hail world
 
 This test will take two inputs and replace the uppercase words with lowercase of the same words
